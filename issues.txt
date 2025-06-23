@@ -1,0 +1,24 @@
+Failure in Short-Term Contextual Memory (User Identity):
+
+Issue: The chatbot failed to consistently retain and recall a user's explicitly provided name within the same continuous conversation session.
+Impact: This led to a less personalized and somewhat jarring user experience, as the bot couldn't acknowledge the user by name after it was provided and confirmed.
+Lack of Personalized Engagement Post-Identification:
+
+Issue: Even when user-specific information (like a name) was provided, the chatbot's subsequent responses remained generic, missing opportunities to integrate this context for a more tailored interaction.
+Impact: Reduces the perception of intelligence and responsiveness, making the interaction feel less human-like and more robotic.
+Redundancy in Clarification Prompts:
+
+Issue: When requesting missing information (e.g., an article for analysis), the chatbot used identical phrasing for repeated prompts.
+Impact: This can lead to user frustration and a feeling of being "stuck" in a loop, rather than guiding them effectively towards providing the necessary input.
+Critical Context Misinterpretation in Analytical Tasks:
+
+Issue: The most significant flaw observed was the chatbot incorrectly applying a previous, unrelated analytical context (e.g., about Tesla) to a newly provided, explicit piece of information (e.g., about Tata Capital).
+Impact: This directly resulted in generating irrelevant and incorrect analysis/suggestions, severely undermining the chatbot's utility and accuracy for complex tasks. This is a high-priority bug.
+Insufficient Dynamic Adaptation of Responses:
+
+Issue: The chatbot's response generation was not sufficiently dynamic in adapting to evolving conversational states or user inputs, leading to static and repetitive outputs even when new context was introduced.
+Impact: Limits the fluidity and naturalness of the conversation, making the chatbot appear less intelligent and adaptable.
+Underperforming on Expected Core Functionality (Context Management):
+
+Issue: While the chatbot demonstrates strong capabilities in general knowledge and text generation, its performance on critical context management for complex, multi-turn analytical requests was below par.
+Impact: Hinders the ability to reliably perform more advanced tasks that require consistent contextual awareness, which is a core expectation for an analytical AI.
